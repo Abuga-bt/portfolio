@@ -7,21 +7,20 @@ import {
 } from 'lucide-react';
 import { useInView } from '../components/hooks/useInView';
 
-const ALL_TAGS = ['React', 'TypeScript', 'Node.js', 'Next.js', 'PostgreSQL', 'MongoDB', 'Stripe', 'Tailwind', 'Prisma', 'Express', 'OpenAI', 'Socket.io'];
-
+const ALL_TAGS = ['React', 'Python', 'MySQL', 'Tailwind', 'FastAPI', 'TypeScript', 'Node.js', 'PostgreSQL', 'MongoDB', 'Stripe', 'OpenAI', 'Socket.io'];
 const projects = [
   {
     id: 1,
-    title: 'Analytics Dashboard',
-    description: 'Real-time analytics platform with customizable widgets, 10k+ data point rendering, dark mode, and CSV export.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&h=600&fit=crop&auto=format',
-    tags: ['React', 'TypeScript', 'Tailwind'],
-    github: 'https://github.com',
-    demo: 'https://example.com',
+    title: 'Job Application Tracker',
+    description: 'Full-stack job tracking app with AI-powered CV tailoring, smart job import, JWT authentication, forgot password via Gmail, and real-time application status dashboard.',
+    image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=900&h=600&fit=crop&auto=format',
+    tags: ['React', 'Python', 'MySQL', 'Tailwind'],
+    github: 'https://github.com/Abuga-bt/job-tracker',
+    demo: 'https://job-tracker-sally.netlify.app',
     icon: LayoutDashboard,
-    palette: { from: '#8B5CF6', to: '#EC4899', glow: 'rgba(139,92,246,0.4)', text: '#C4B5FD' },
+    palette: { from: '#378ADD', to: '#1D9E75', glow: 'rgba(55,138,221,0.4)', text: '#93C5FD' },
     featured: true,
-    year: '2024',
+    year: '2026',
   },
   {
     id: 2,
@@ -316,9 +315,9 @@ export function Projects() {
           className="flex flex-wrap justify-center gap-8 mt-14 mb-10"
         >
           {[
-            { value: '6+', label: 'Projects shipped', color: '#8B5CF6' },
-            { value: '12', label: 'Technologies used', color: '#06B6D4' },
-            { value: '500+', label: 'Users reached', color: '#EC4899' },
+            { value: '3+', label: 'Projects shipped', color: '#378ADD' },
+            { value: '10+', label: 'Technologies used', color: '#1D9E75' },
+            { value: '100%', label: 'Passion driven', color: '#7F77DD' },
           ].map(({ value, label, color }) => (
             <div key={label} className="text-center">
               <div style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 800, fontSize: '2.2rem', background: `linear-gradient(135deg, ${color}, white)`, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>

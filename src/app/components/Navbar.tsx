@@ -41,7 +41,7 @@ export function Navbar() {
             <Code2 className="w-4 h-4 text-white" />
           </div>
           <span className="hidden sm:block text-sm" style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 700, background: 'linear-gradient(135deg, #8B5CF6, #EC4899)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-            Alex Rivera
+            Sally Abuga
           </span>
         </NavLink>
 

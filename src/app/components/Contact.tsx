@@ -22,8 +22,8 @@ export function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'alex.rivera@example.com',
-      href: 'mailto:alex.rivera@example.com',
+      value: 'sallyabuga11@example.com',
+      href: 'mailto:sallyabuga@example.com',
     },
     {
       icon: Phone,
@@ -34,7 +34,7 @@ export function Contact() {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Nairobi, Kenyas',
       href: '#',
     },
   ];

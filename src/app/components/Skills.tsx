@@ -20,7 +20,7 @@ export function Skills() {
         { name: 'Node.js', level: 75 },
         { name: 'Express', level: 70 },
         { name: 'PostgreSQL', level: 65 },
-        { name: 'MongoDB', level: 70 },
+        { name: 'MySQL', level: 65 },
       ],
     },
     {
