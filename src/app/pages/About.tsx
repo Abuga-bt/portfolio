@@ -35,10 +35,9 @@ const highlights = [
 ];
 
 const funFacts = [
-  { icon: GraduationCap, label: 'CS Graduate 2023', color: '#8B5CF6' },
+  { icon: GraduationCap, label: 'IT Graduate 2026', color: '#8B5CF6' },
   { icon: Heart, label: 'Open Source Contributor', color: '#EC4899' },
   { icon: Coffee, label: '3+ cups/day', color: '#F97316' },
-  { icon: Music, label: 'Codes to lo-fi beats', color: '#06B6D4' },
 ];
 
 export function About() {

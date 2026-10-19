@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import { useInView } from '../components/hooks/useInView';
 
-const ALL_TAGS = ['React', 'Python', 'MySQL', 'Tailwind', 'FastAPI', 'TypeScript', 'Node.js', 'PostgreSQL', 'MongoDB', 'Stripe', 'OpenAI', 'Socket.io'];
+const ALL_TAGS = ['React', 'Python', 'MySQL', 'Tailwind', 'FastAPI', 'TypeScript', 'Node.js', 'PostgreSQL', 'OpenAI', 'Socket.io'];
 const projects = [
   {
     id: 1,
@@ -35,58 +35,8 @@ const projects = [
     featured: false,
     year: '2024',
   },
-  {
-    id: 3,
-    title: 'E-Commerce Platform',
-    description: 'Full-featured storefront with Stripe payments, inventory management, and admin dashboard built on Next.js.',
-    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=900&h=600&fit=crop&auto=format',
-    tags: ['Next.js', 'PostgreSQL', 'Stripe', 'Prisma'],
-    github: 'https://github.com',
-    demo: 'https://example.com',
-    icon: ShoppingBag,
-    palette: { from: '#F97316', to: '#FBBF24', glow: 'rgba(249,115,22,0.4)', text: '#FCD34D' },
-    featured: false,
-    year: '2023',
-  },
-  {
-    id: 4,
-    title: 'AI Writing Assistant',
-    description: 'GPT-powered content generation tool with tone control, SEO scoring, and a multi-document workspace.',
-    image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=900&h=600&fit=crop&auto=format',
-    tags: ['Next.js', 'OpenAI', 'TypeScript', 'PostgreSQL'],
-    github: 'https://github.com',
-    demo: 'https://example.com',
-    icon: BrainCircuit,
-    palette: { from: '#A855F7', to: '#EC4899', glow: 'rgba(168,85,247,0.4)', text: '#D8B4FE' },
-    featured: true,
-    year: '2024',
-  },
-  {
-    id: 5,
-    title: 'Real-Time Chat App',
-    description: 'Slack-like messaging platform with channels, DMs, file sharing, emoji reactions, and thread replies.',
-    image: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=900&h=600&fit=crop&auto=format',
-    tags: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-    github: 'https://github.com',
-    demo: 'https://example.com',
-    icon: MessageCircle,
-    palette: { from: '#10B981', to: '#06B6D4', glow: 'rgba(16,185,129,0.4)', text: '#6EE7B7' },
-    featured: false,
-    year: '2023',
-  },
-  {
-    id: 6,
-    title: 'Stock Portfolio Tracker',
-    description: 'Personal finance dashboard tracking portfolio performance, dividends, and news sentiment for 50+ tickers.',
-    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=900&h=600&fit=crop&auto=format',
-    tags: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
-    github: 'https://github.com',
-    demo: 'https://example.com',
-    icon: BarChart3,
-    palette: { from: '#F59E0B', to: '#EF4444', glow: 'rgba(245,158,11,0.4)', text: '#FDE68A' },
-    featured: false,
-    year: '2023',
-  },
+  
+  
 ];
 
 function GradientBorder({ children, from, to, className = '' }: { children: React.ReactNode; from: string; to: string; className?: string }) {
@@ -316,8 +266,8 @@ export function Projects() {
         >
           {[
             { value: '3+', label: 'Projects shipped', color: '#378ADD' },
-            { value: '10+', label: 'Technologies used', color: '#1D9E75' },
-            { value: '100%', label: 'Passion driven', color: '#7F77DD' },
+          { value: '10+', label: 'Technologies used', color: '#1D9E75' },
+          { value: '100%', label: 'Passion driven', color: '#7F77DD' },
           ].map(({ value, label, color }) => (
             <div key={label} className="text-center">
               <div style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 800, fontSize: '2.2rem', background: `linear-gradient(135deg, ${color}, white)`, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>

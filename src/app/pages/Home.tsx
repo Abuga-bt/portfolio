@@ -34,7 +34,7 @@ function useTypewriter(words: string[], speed = 80, pause = 2000) {
 }
 
 const container = { hidden: {}, visible: { transition: { staggerChildren: 0.13, delayChildren: 0.25 } } };
-const item = { hidden: { y: 32, opacity: 0 }, visible: { y: 0, opacity: 1, transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] } } };
+const item = { hidden: { y: 32, opacity: 0 }, visible: { y: 0, opacity: 1, transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] as const } } };
 
 export function Home() {
   const typed = useTypewriter(roles);
@@ -79,7 +79,7 @@ export function Home() {
             style={{ background: 'rgba(139,92,246,0.12)', border: '1px solid rgba(139,92,246,0.35)', color: '#C4B5FD' }}
           >
             <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: '#22C55E', boxShadow: '0 0 8px #22C55E' }} />
-            Available for work · June 2026
+            Available for work 
           </span>
         </motion.div>
 
@@ -95,7 +95,7 @@ export function Home() {
               color: '#F0EEFF',
             }}
           >
-            Alex Rivera
+             Sally Abuga
           </h1>
         </motion.div>
 
@@ -174,7 +174,7 @@ export function Home() {
           className="grid grid-cols-3 gap-4 mt-16 max-w-sm mx-auto"
         >
           {[
-            { icon: Layers, value: '6+', label: 'Projects', color: '#8B5CF6' },
+            { icon: Layers, value: '2', label: 'Projects', color: '#8B5CF6' },
             { icon: Zap, value: '12', label: 'Technologies', color: '#06B6D4' },
             { icon: Coffee, value: '∞', label: 'Cups of coffee', color: '#F97316' },
           ].map(({ icon: Icon, value, label, color }) => (

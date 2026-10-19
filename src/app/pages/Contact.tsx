@@ -4,9 +4,9 @@ import { Mail, MapPin, Github, Linkedin, Twitter, Send, CheckCircle2, MessageSqu
 import { useInView } from '../components/hooks/useInView';
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'alex@example.com', href: 'mailto:alex@example.com', color: '#8B5CF6', gradient: 'linear-gradient(135deg, #8B5CF6, #A78BFA)' },
-  { icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: null, color: '#EC4899', gradient: 'linear-gradient(135deg, #EC4899, #F472B6)' },
-  { icon: Github, label: 'GitHub', value: '@alexrivera', href: 'https://github.com', color: '#06B6D4', gradient: 'linear-gradient(135deg, #06B6D4, #22D3EE)' },
+  { icon: Mail, label: 'Email', value: 'sallyabuga11@gmail.com', href: 'mailto:alex@example.com', color: '#8B5CF6', gradient: 'linear-gradient(135deg, #8B5CF6, #A78BFA)' },
+  { icon: MapPin, label: 'Location', value: 'Nairobi, Kenya', href: null, color: '#EC4899', gradient: 'linear-gradient(135deg, #EC4899, #F472B6)' },
+  { icon: Github, label: 'GitHub', value: '@Abuga-bt', href: 'https://github.com', color: '#06B6D4', gradient: 'linear-gradient(135deg, #06B6D4, #22D3EE)' },
 ];
 
 const socials = [
@@ -148,7 +148,7 @@ export function Contact() {
                       required
                       value={form.name}
                       onChange={(e) => setForm({ ...form, name: e.target.value })}
-                      placeholder="Alex Rivera"
+                      placeholder="Jane Ann"
                       className="w-full px-4 py-3 rounded-xl outline-none transition-all"
                       style={{ background: 'rgba(26, 26, 53, 0.8)', border: '1px solid rgba(139, 92, 246, 0.2)', color: '#F0EEFF', fontSize: '0.9rem' }}
                       onFocus={(e) => (e.target.style.borderColor = 'rgba(139, 92, 246, 0.6)')}
