@@ -139,7 +139,7 @@ export function Home() {
             See My Work <ArrowRight className="w-4 h-4" />
           </Link>
           <a
-            href="/alex-rivera-resume.pdf"
+            href="https://docs.google.com/document/d/1e_zqYnwl7p8YUccjtT2j-LUqnmQ79AXG/edit?usp=drive_link&ouid=101964209732005722628&rtpof=true&sd=true"
             className="flex items-center gap-2 px-8 py-3.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:-translate-y-0.5"
             style={{ background: 'rgba(139,92,246,0.1)', border: '1.5px solid rgba(139,92,246,0.4)', color: '#C4B5FD' }}
           >
